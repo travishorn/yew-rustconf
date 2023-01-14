@@ -1,0 +1,16 @@
+[package]
+name = "yew-rustconf"
+version = "0.1.0"
+authors = ["Travis Horn <travis@travishorn.com>"]
+description = "A sample Yew app that fetches data from an API, uses loops and nested components, and contains interactivity"
+license = "MIT"
+repository = "https://github.com/travishorn/yew-rustconf"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yew = { version = "0.20", features = ["csr"] }
+gloo-net = "0.2"
+serde = { version = "1.0", features = ["derive"] }
+wasm-bindgen-futures = "0.4"
